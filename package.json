@@ -1,6 +1,6 @@
 {
   "name": "express-skeleton",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "description": "ExpressJS skeleton app",
   "skeletonVersion": "0.0.0",
