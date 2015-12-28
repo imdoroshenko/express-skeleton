@@ -1,0 +1,37 @@
+{
+  "name": "express-skeleton",
+  "version": "0.0.0",
+  "private": true,
+  "description": "ExpressJS skeleton app",
+  "skeletonVersion": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:imdoroshenko/express-skeleton.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/start.sh",
+    "test": "./bin/test.sh",
+    "version": "json -I -f package.json -e \"if (this.name==='microservice-skeleton') this.skeletonVersion = this.version\""
+  },
+  "dependencies": {
+    "response-time": "^2.3.1",
+    "config": "^1.16.0",
+    "express": "^4.13.3",
+    "object-pool": "git+ssh://git@github.com:imdoroshenko/object-pool.git#v1.0.0",
+    "express-response": "git+ssh://git@github.com:imdoroshenko/express-response.git#v1.0.0",
+    "exceptions": "git+ssh://git@github.com:imdoroshenko/exceptions.git#v1.0.0",
+    "body-parser": "^1.14.1",
+    "on-finished": "~2.3.0",
+    "morgan": "^1.6.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "~1.2.2",
+    "supertest": "1.1.0",
+    "chai": "*",
+    "sinon": "~1.14.1",
+    "json": "*"
+  },
+  "author": "Ivan Doroshenko <i.m.doroshenko@gmail.com>"
+}
