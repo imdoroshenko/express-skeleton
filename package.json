@@ -1,9 +1,9 @@
 {
   "name": "express-skeleton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "ExpressJS skeleton app",
-  "skeletonVersion": "0.0.0",
+  "skeletonVersion": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git@github.com:imdoroshenko/express-skeleton.git"
