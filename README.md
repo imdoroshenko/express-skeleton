@@ -9,30 +9,30 @@ Clone source code
 ```shell
 $ git clone git@github.com:imdoroshenko/express-skeleton.git my_app --depth=1
 $ cd my_app
-$ git fetch --unshallow
+my_app$ git fetch --unshallow
 ```
 Set remotes
 ```shell
-$ git remote rename origin skeleton
-$ git remote add origin  git@github.com:me/my_app.git
-$ git config remote.skeleton.tagopt --no-tags
+my_app$ git remote rename origin skeleton
+my_app$ git remote add origin  git@github.com:me/my_app.git
+my_app$ git config remote.skeleton.tagopt --no-tags
 ```
 
 Install dependencies
 ```shell
-node-skeleton$ npm install
+my_app$ npm install
 ```
 
 Run application
 ```shell
-node-skeleton$ npm start
+my_app$ npm start
 ```
 
 Update skeleton
 ```shell
-git fetch skeleton
-git checkout -b skeleton_vX.X.X
-git merge skeleton/master
+my_app$ git fetch skeleton
+my_app$ git checkout -b skeleton_vX.X.X
+my_app$ git merge skeleton/master
 ```
 
 
@@ -43,7 +43,7 @@ git merge skeleton/master
 
  Run tests manually
  ```shell
- node-skeleton$ npm test
+ $ npm test
  ```
 
 # Versions
